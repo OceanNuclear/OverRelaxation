@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 from autograd import grad
 
 # EPSILON=1E-12
-OMEGA=1.1
+OMEGA=0.9
 INITIAL_X = 1.0
 
 f = lambda x : 8/x -1
