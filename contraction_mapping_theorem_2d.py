@@ -6,7 +6,10 @@ from matplotlib import pyplot as plt
 
 def transform(pt):
     """
-    Attractive fixed point: -0.5, 0
+    Define your own self-map here.
+    The self-map must take a point (x_in, y_in) and produce another point (x_out, y_out).
+    The distance between any two input points must decrease after the transformation in order for the contraction mapping theorem to work.
+    The default self-map used here has attractive fixed point: -0.5, 0
     """
     x, y = pt.T[0], pt.T[1]
     x0, y0 = -0.5, 0.0
